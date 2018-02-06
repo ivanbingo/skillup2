@@ -13,6 +13,11 @@ $yesterday = $currentDate - SECOND_IN_DAY * 7;
 //require_once ('template.php')
 
 define('PRODJECT_NAME', 'Skillup');
+define('SUPPORT','Суппорт');
+define('CONTACT', 'Контакты');
+define('CONDITIONS', 'Условия');
+define('COP','© 2018 FoodGramme');
+
 ?>
 
 
@@ -81,9 +86,10 @@ define('PRODJECT_NAME', 'Skillup');
         </div>
     </div>
 
-    <div class="footer">
-
-    </div>
+<div class="footer">
+    <?php require_once 'include/footer.php'; ?>
+	</div>
+	
 </div>
 </body>
 </html>

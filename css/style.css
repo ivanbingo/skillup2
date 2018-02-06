@@ -109,3 +109,17 @@ float: right;
 	border-bottom: 1px dashed #808080;
 
 }
+.footer {
+padding: 159px 0 14px 820px;
+}
+
+.links a {
+
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Arial, serif;
+	color: #4b382a;
+	text-decoration: none;
+
+}
